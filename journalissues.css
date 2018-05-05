@@ -1,0 +1,52 @@
+body, html{
+    height: 100%;
+}
+
+.bg{
+    background-image: url("background.jpg");
+    height: auto;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-size: 24px;
+}
+
+.nav-link{
+    color: #33FFC7;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.dropdown-item{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#captions{
+    color: white;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#card-img-top{
+    width: 100%;
+    height: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;   
+}
