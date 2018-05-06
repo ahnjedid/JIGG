@@ -1,0 +1,32 @@
+@media (max-width: 1200px){
+    #name-field{
+        margin-bottom: 5px;
+    }
+    
+    #email-field{
+        margin-bottom: 5px;
+    }
+}
+
+
+@media (max-width: 375px){ 
+    #subscriber-name{
+        width: 100px;
+    }
+
+    #subscriber-email{
+        width: 150px;
+        
+    }
+}
+
+@media (max-width: 300px){ 
+    #subscriber-name{
+        width: 75px;
+    }
+
+    #subscriber-email{
+        width: 125px;
+        
+    }
+}

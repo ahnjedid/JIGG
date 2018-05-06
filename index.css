@@ -1,32 +1,111 @@
-body, html{
+/* Fill background */
+html{
     height: 100%;
 }
 
 .bg{
-    background-image: url("background.jpg");
+    background-color: #242222;
     height: 100%;
 }
 
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
 
-
+/* Navigation bar */
 .navbar-brand{
     color: white;
-    font-size: 24px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 42px;
 }
 
+.name{
+    color: white;
+    font-size: 18px;
+}
+
+
 .nav-link{
-    color: #33FFC7;
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
     margin-right: 15px;
 }
 
+.active a{
+  color: #33FFC7 !important;
+}
+
 .dropdown-item{
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
+}
+
+
+/* Grid */
+#header-title{
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+}
+
+#section{
+    background-color: #272525;
+    display: block;
+    overflow: auto;
+}
+
+.section-title{
+    color: #33FFC7;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Card */
+.card-body{
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.card-title{
+    color: skyblue;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+.issue-cover{
+    width: 300px;
+}
+
+.news-picture{
+    width: 300px;
+    height: 175px;
+}
+
+.research-photo{
+    width: 300px;
+    height: 275px;
+    cursor: pointer;
+}
+
+.research-photo:hover{
+    opacity: 0.7;
+}
+
+
+/* Modal */
+.modal-content{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.modal-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#button1{
+    background-color: skyblue;
+}
+
+#button2{
+    background-color: skyblue;
+}
+
+#button3{
+    background-color: skyblue;
 }
