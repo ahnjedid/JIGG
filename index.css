@@ -4,6 +4,8 @@ html{
 }
 
 .bg{
+    background: url(background.png);
+    background-repeat: no-repeat;
     background-color: #242222;
     height: 100%;
 }
