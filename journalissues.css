@@ -20,21 +20,20 @@
 }
 
 /* Card */
-#card-background{
+.card-background{
     width: 20rem;
     background-color: #272525;
     border-color: silver;
     display: block;
     overflow: auto;
-}
-
-.card-body{
-    color: white;
     font-family: "Courier New", Courier, monospace;
 }
 
 .card-title{
     color: skyblue;
-    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
+}
+
+.card-text{
+    color: white;
 }

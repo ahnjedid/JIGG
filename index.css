@@ -1,8 +1,3 @@
-/* Fill background */
-html{
-    height: 100%;
-}
-
 .bg{
     background: url(background.png);
     background-repeat: no-repeat;
@@ -11,74 +6,92 @@ html{
 }
 
 
-/* Navigation bar */
+
+/* NAVIGATION BAR */
+/* "JIGG" */
 .navbar-brand{
     color: white;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 42px;
 }
 
-.name{
-    color: white;
+/* "Journal of Innovations in Genetics and Genome Biology" */
+.journal-name{
     font-size: 18px;
 }
 
-
+/* Navigation links */
 .nav-link{
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
     margin-right: 15px;
 }
 
+/* Active navigation link */
 .active a{
-  color: #33FFC7 !important;
+    color: #33FFC7 !important;
 }
 
+/* Navigation link dropdown */
+.dropdown-menu{
+    background: transparent;
+}
+
+/* Navigation link dropdown link */
 .dropdown-item{
+    color: silver;
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
 }
+/* END OF NAVIGATION BAR */
 
 
-/* Grid */
-#header-title{
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 30px;
-}
 
-#section{
+/* GRID */
+/* 3 different sections */
+.section{
     background-color: #272525;
     display: block;
     overflow: auto;
-}
-
-.section-title{
-    color: #33FFC7;
     font-family: "Courier New", Courier, monospace;
 }
 
-/* Card */
+/* "Recent Issues", "Latest News", "Featured Research" */
+.section-title{
+    color: white;
+    font-size: 30px;
+}
+
+/* Date of post */
+.date{
+    color: #33FFC7;
+}
+
+
+/* CARD */
+/* Paragraph */
 .card-body{
     color: white;
-    font-family: "Courier New", Courier, monospace;
 }
 
+/* Title */
 .card-title{
     color: skyblue;
-    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
 }
 
+/* Pictures for "Recent Issues" section */
 .issue-cover{
     width: 300px;
 }
 
+/* Pictures for "Latest News" section */
 .news-picture{
     width: 300px;
     height: 175px;
 }
 
+/* Photos for "Featured Research" section */
 .research-photo{
     width: 300px;
     height: 275px;
@@ -88,26 +101,20 @@ html{
 .research-photo:hover{
     opacity: 0.7;
 }
+/* END OF CARD */
 
 
-/* Modal */
+/* MODAL */
+/* Paragraph */
 .modal-content{
     font-family: "Courier New", Courier, monospace;
 }
 
+/* Title */
 .modal-title{
     font-weight: bold;
     font-size: 20px;
 }
+/* END OF MODAL */
 
-#button1{
-    background-color: skyblue;
-}
-
-#button2{
-    background-color: skyblue;
-}
-
-#button3{
-    background-color: skyblue;
-}
+/* END OF GRID */

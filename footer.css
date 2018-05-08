@@ -3,13 +3,17 @@
     background-color: #696969;
 }
 
+
+/* LEFT COLUMN */
+/* "CONNECT WITH US */
 .socialmedia-title{
     color: whitesmoke;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 24px;
     font-weight: bold;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+/* Social Media Icons */
 .fa {
     padding: 10px;
     font-size: 20px;
@@ -37,24 +41,28 @@
     background: #dd4b39;
     color: white;
 }
+/* END OF LEFT COLUMN */
 
 
-
+/* RIGHT COLUMN */
 .boxed{
     border: 2px solid silver;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+/* "SUBSCRIBE TO OUR MAILING LIST */
 .subscribe-title{
     color: whitesmoke;
     font-size: 24px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-left: 15px;
 }
 
+/* Form */
 #subscribe-form{
     margin-left: 25px;
 }
 
+/* Name field/box */
 #name-field{
     border: 2px solid grey;
     background-color: transparent;
@@ -62,6 +70,7 @@
     height: 50px;
 }
 
+/* Email field/box */
 #email-field{
     border: 2px solid grey;
     background-color: transparent;
@@ -69,22 +78,22 @@
     height: 50px;
 }
 
+/* Name of subscriber */
 #subscriber-name{
     border: none;
     background-color: transparent;
     color: white;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 16px;
     width: 175px;
     height: 100%;
     float: right;
 }
 
+/* Subscriber's email */
 #subscriber-email{
     border: none;
     background-color: transparent;
     color: white;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 16px;
     width: 225px;
     height: 100%;
@@ -92,17 +101,19 @@
     
 }
 
+/* "Submit" */
 #subscribe-button{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-left: 5px;
     font-size: 16px;
     height: 50px;
 }
 
+/* Font Awesome Icon */
 #checkmark{
     font-size: 12px;
 }
 
+/* Controlling stylistic features of form control */
 .form-control {
     box-shadow: none!important;
 }
@@ -117,25 +128,28 @@ form .form-control:-ms-input-placeholder {
 form .form-control::-webkit-input-placeholder {
     color: white;
 }
+/* END OF RIGHT COLUMN */
 
 
-/* Disclaimer */
-#disclaimer-container{
-    padding-left: 100px;
-    padding-right: 100px;
+/* DISCLAIMER */
+.disclaimer{
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.disclaimer{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+/* Paragraph */
+.disclaimer-paragraph{
     font-size: 12px;
     color: white;
     display: block;
     margin: 15px auto;
 }
 
+/* Link to Ulife website */
 .disclaimer-link{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 12px;
     color: black;
     text-decoration: underline;
 }
+/* END OF DISCLAIMER */

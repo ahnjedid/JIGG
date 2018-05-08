@@ -1,3 +1,4 @@
+/* Form control */
 @media (max-width: 1200px){
     #name-field{
         margin-bottom: 5px;
@@ -31,9 +32,11 @@
     }
 }
 
+
+/* Disclaimer container */
 @media (max-width: 768px){ 
-    #disclaimer-container{
-        padding-left: 50px;
-        padding-right: 50px;
+    .disclaimer{
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
