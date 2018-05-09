@@ -11,15 +11,13 @@
     <!-- W3Schools CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
     <!-- Custom CSS -->
     <link href="index.css" rel="stylesheet">
     <link href="index-mobile.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
     <link href="footer-mobile.css" rel="stylesheet">
     <link href="staff2018-2019.css" rel="stylesheet">
+    <link href="staff2018-2019-mobile.css" rel="stylesheet">
 
     <title>Staff List - JIGG</title>
     </head>
@@ -70,15 +68,232 @@
                 <h1 class="page-title">JIGG's 2018-2019 Team Members</h1>
                 <br><br>
     
-                <div class="container" align="middle">
-                    <button type="button" class="btn btn-info"><i class="fa fa-users"></i>Editors In Chief</button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-users"></i>Editors</button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-users"></i>Graphic Designers</button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-users"></i>Web Designers</button>
-                    <br><br>
-                </div>  
-                
-                
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="editors-in-chief" align="middle">
+                            <div class="card-buttons">
+                                <button class="btn btn-info" id="card-button" data-toggle="collapse" data-target="#collapseEditorsInChief" aria-expanded="true" aria-controls="collapseEditorsInChief">
+                                    <i class="fa fa-users" id="user-icon"></i>Editors In Chief
+                                </button>
+                                
+                                <button class="btn btn-info" id="card-button" data-toggle="collapse" data-target="#collapseEditors" aria-expanded="true" aria-controls="collapseEditors">
+                                    <i class="fa fa-users" id="user-icon"></i>Editors
+                                </button>
+                                
+                                <button class="btn btn-info" id="card-button" data-toggle="collapse" data-target="#collapseGraphicDesigners" aria-expanded="true" aria-controls="collapseGraphicDesigners">
+                                    <i class="fa fa-users" id="user-icon"></i>Graphic Designers
+                                </button>
+                                
+                                <button class="btn btn-info" id="card-button" data-toggle="collapse" data-target="#collapseWebDesigners" aria-expanded="true" aria-controls="collapseWebDesigners">
+                                    <i class="fa fa-users" id="user-icon"></i>Web Designers
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="collapse show" id="collapseEditorsInChief" aria-labelledby="editors-in-chief" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="container">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/lazar.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">LAZAR JOKSIMOVIC</h5>
+                                                <h6 class="program-name">Program: Physiology Specialist, Immunology Major and Molecular Genetics Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/babak.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">ROBERT KOUCHEKI</h5>
+                                                <h6 class="program-name">Program: Molecular Genetics Specialist and Immunology Major</h6>
+                                            </div>
+                                        </div>
+                                        <div class="vertical-spacing">
+                                            <br><br>
+                                        </div>
+                                    </div>
+                                    
+                                    <br>
+                                    <div class="vertical-spacing">
+                                        <br><br>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/kathleen.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">KATHLEEN CHENG</h5>
+                                                <h6 class="program-name">Program: Physiology Major and Immunology Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/sahar.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">SAHAR ALIMIRZAIE</h5>
+                                                <h6 class="program-name">Program: Immunology Specialist and Physiology Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="collapse" id="collapseEditors" aria-labelledby="editors" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="container">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/tina.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">TINA KESHAVARZIAN</h5>
+                                                <h6 class="program-name">Program: Neuroscience Specialist and Physiology Minor</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/emma.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">EMMA HASTIE</h5>
+                                                <h6 class="program-name">Program: Genome Biology Major and Fundamental Genetics Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <br>
+                                    <div class="vertical-spacing">
+                                        <br><br>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/nima.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">NIMA LAGHAPOUR</h5>
+                                                <h6 class="program-name">Program: Physiology Specialist and Health and Disease Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/anthony.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">ANTHONY HUANG</h5>
+                                                <h6 class="program-name">Program: Health and Disease Specialist and Molecular Genetics Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="collapse" id="collapseGraphicDesigners" aria-labelledby="graphic-designers" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="container">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/ashima.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">ASHIMA KAURA</h5>
+                                                <h6 class="program-name">Program: First Year in Life Sciences; intending to specialize in Pharmacology</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="collapse" id="collapseWebDesigners" aria-labelledby="web-designers" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="container">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/jed.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">JEDID AHN</h5>
+                                                <h6 class="program-name">Program: Bioinformatics and Computational Biology Specialist and Computer Science Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="executive-section">
+                                                <img class="executive-photo" src="2018-2019staff/justin.jpg">
+                                                <div class="vertical-shift">
+                                                    <br><br><br><br><br>
+                                                </div>
+                                                <h5 class="name">JUSTIN CHEUNG</h5>
+                                                <h6 class="program-name">Program: Math Major and Statistics Major</h6>
+                                            </div>
+                                            <div class="vertical-spacing">
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
             </div>
             <br><br><br>
         </div>
@@ -86,8 +301,8 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <br><br>
+                    <div class="col-sm-5">
+                        <br>
                         <p class="socialmedia-title">CONNECT WITH US</p>
                         <a href="https://www.facebook.com/JIGG-Journal-of-Innovations-in-Genetics-Genomics-168477470535729/" class="fa fa-facebook" target="_blank"></a>
                         <a href="mailto:gsggb.jigg@gmail.com" class="fa fa-google"></a>
@@ -95,10 +310,9 @@
                             <br><br>
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-7">
                         <br>
                         <div class="boxed">
-                        <br>
                         <p class="subscribe-title">Subscribe to our mailing list!</p>
                             <form class="form-inline" id="subscribe-form" method="POST" action="https://formspree.io/gsggb.jigg@gmail.com">
                                 <div class="form-group" id="name-field">
@@ -110,22 +324,21 @@
                                     <input type="email" class="form-control" id="subscriber-email" placeholder="Email Address..." required>
                                 </div>
                                 <button type="submit" class="btn btn-info" id="subscribe-button">
-                                    <i class="fa fa-check-circle" id="checkmark"></i>Submit
+                                    Submit
                                 </button>
                             </form>
-                        <br><br>
                         </div>
                     </div>
                 </div>
             </div>
-            <br><br>
+            <br>
             
             <!-- U of T Student Group Disclaimer -->
             <div class="container">
                 <div class="disclaimer">
                     <div class="disclaimer-paragraph">
                         DISCLAIMER: The content of this web site is entirely the responsibility of a campus organization which is independent from the University of Toronto. The opinions expressed do not necessarily reflect those of the University. The University of Toronto shall not be liable for any damage resulting from the use or misuse of the contents of this web site.
-                        <br><br>
+                        <br>
                         [This webspace is being hosted by <a class="disclaimer-link" href="http://studentlife.utoronto.ca/cld/groups-faq" target="_blank">University of Toronto Student Life</a>]
                     </div>
                 </div>

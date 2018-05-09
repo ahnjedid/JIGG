@@ -1,6 +1,48 @@
+/* "JIGG's 2018/2019 Team Members */
 .page-title{
     color: white;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
+}
+
+/* CARD */
+.card{
+    background-color: #272525;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.card-header{
+    border-bottom-color: silver;
+    border-width: 2px;
+}
+
+#card-button{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* EXECUTIVE */
+.executive-section{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.executive-photo{
+    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.name{
+    color: #33FFC7;
+    font-weight: bold;
+}
+
+.program-name{
+    color: white;
 }

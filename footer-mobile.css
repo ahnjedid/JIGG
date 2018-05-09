@@ -9,8 +9,7 @@
     }
 }
 
-
-@media (max-width: 375px){ 
+@media (max-width: 768px){
     #subscriber-name{
         width: 100px;
     }
@@ -27,7 +26,7 @@
     }
 
     #subscriber-email{
-        width: 125px;
+        width: 100px;
         
     }
 }

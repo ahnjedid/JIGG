@@ -47,13 +47,14 @@
 /* RIGHT COLUMN */
 .boxed{
     border: 2px solid silver;
+    padding: 10px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 /* "SUBSCRIBE TO OUR MAILING LIST */
 .subscribe-title{
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 15px;
 }
 
@@ -67,7 +68,7 @@
     border: 2px solid grey;
     background-color: transparent;
     margin-left: 5px;
-    height: 50px;
+    height: 40px;
 }
 
 /* Email field/box */
@@ -75,7 +76,7 @@
     border: 2px solid grey;
     background-color: transparent;
     margin-left: 5px;
-    height: 50px;
+    height: 40px;
 }
 
 /* Name of subscriber */
@@ -83,8 +84,8 @@
     border: none;
     background-color: transparent;
     color: white;
-    font-size: 16px;
-    width: 175px;
+    font-size: 14px;
+    width: 150px;
     height: 100%;
     float: right;
 }
@@ -94,8 +95,8 @@
     border: none;
     background-color: transparent;
     color: white;
-    font-size: 16px;
-    width: 225px;
+    font-size: 14px;
+    width: 200px;
     height: 100%;
     float: right;
     
@@ -105,12 +106,7 @@
 #subscribe-button{
     margin-left: 5px;
     font-size: 16px;
-    height: 50px;
-}
-
-/* Font Awesome Icon */
-#checkmark{
-    font-size: 12px;
+    height: 40px;
 }
 
 /* Controlling stylistic features of form control */
@@ -133,14 +129,14 @@ form .form-control::-webkit-input-placeholder {
 
 /* DISCLAIMER */
 .disclaimer{
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 /* Paragraph */
 .disclaimer-paragraph{
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     display: block;
     margin: 15px auto;
@@ -148,7 +144,7 @@ form .form-control::-webkit-input-placeholder {
 
 /* Link to Ulife website */
 .disclaimer-link{
-    font-size: 12px;
+    font-size: 10px;
     color: black;
     text-decoration: underline;
 }
