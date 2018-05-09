@@ -1,0 +1,18 @@
+/* Remove extra spacing past mobile device length */
+@media (min-width: 768px){
+    .vertical-spacing1{
+        display: none;
+    }
+}
+
+@media (min-width: 576px){
+    .vertical-spacing2{
+        display: none;
+    }
+}
+
+@media (min-width: 350px){
+    .break-line{
+        display: none;
+    }
+}
