@@ -54,12 +54,16 @@
     display: block;
     overflow: auto;
     font-family: "Courier New", Courier, monospace;
+    border-color: silver;
+    border-style: solid;
+    border-width: 1px;
 }
 
 /* "Recent Issues", "Latest News", "Featured Research" */
 .section-title{
     color: white;
     font-size: 30px;
+    font-weight: bold;
 }
 
 /* Date of post */
