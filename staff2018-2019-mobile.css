@@ -1,11 +1,11 @@
 /* Remove Font Awesome User Icon on Mobile Screens */
-@media (max-width: 285px){
+@media (max-width: 315px){
     #user-icon{
         display: none;
     }
     
     #card-button{
-        width: 175px;
+        width: 185px;
     }
 }
 

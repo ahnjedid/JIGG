@@ -1,0 +1,38 @@
+/* "FAQ" */
+.page-title{
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+
+/* CARD */
+.card{
+    background-color: slategray;
+    border-color: #242222;
+}
+
+.card-header{
+    border-bottom-color: #242222;
+    border-width: 2px;
+}
+
+.card-body{
+    color: black;
+    background-color: ghostwhite;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#card-button{
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.question-text{
+    font-family: "Courier New", Courier, monospace;
+    
+    /* For mobile compatibility */
+    white-space: normal;
+}

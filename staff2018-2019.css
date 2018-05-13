@@ -20,8 +20,9 @@
 #card-button{
     margin-right: 30px;
     margin-bottom: 10px;
-    width: 200px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 230px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
 }
 
 /* EXECUTIVE */
