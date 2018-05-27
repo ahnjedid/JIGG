@@ -1,2 +1,2 @@
 # JIGG
-Web Development Repository for the Journal of Innovations of Genetics and Genome Biology
+Web Design Repository for the Journal of Innovations in Genetics and Genome Biology
