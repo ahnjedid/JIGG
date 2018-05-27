@@ -1,0 +1,81 @@
+/* "Journal of Innovations in Genetics and Genome Biology" */
+@media (max-width: 576px){
+    .journal-name{
+        display: none;
+    }
+}
+
+/* Very small devices */
+@media (min-width: 300px){
+    .card-transparent{
+        padding-left: 40px;
+    }
+}
+
+/* Even smaller mobile devices */
+@media (min-width: 400px){
+    /* Shift in padding of Bootstrap card to improve overall display */
+    .card-transparent{
+        padding-left:30px;
+    }
+}
+
+/* Styling for small mobile devices*/
+@media (min-width: 576px){
+    /* Responsive size for images under mobile environment */
+    .issues_cover{
+        width:90%;
+        height:auto;
+    }
+    
+    /* Columns in mobile layout */
+    .col-md{
+        padding-left: 70px;
+    }
+    
+    /* Shift in padding of card text box */
+    .card-body{
+       padding-right: 65px;
+    }
+}
+
+/* Styling for medium-sized devices */
+@media (min-width:769px){
+    
+    /* Responsive size for images under mobile environment */
+    .issues_cover{
+        width:150%;
+        height:auto;
+    }
+    
+    /* Columns in mobile layout */
+    .col-md{
+        padding-left: 5px;
+    }
+    
+    /* Shift in padding of card text box */
+    .card-body{
+       padding-right: 1px;
+    }
+}
+
+/* Styling for laptops and large-sized devices*/
+@media (min-width:993px){
+    
+    /* Responsive size for images under mobile environment */
+    .issues_cover{
+        width:110%;
+        height:auto;
+    }
+    
+    /* Columns in mobile layout */
+    .col-md{
+        padding-left: 10px;
+    }
+    
+    /* Shift in padding of card text box */
+    .card-body{
+       padding-right: 5px;
+    }
+}
+
