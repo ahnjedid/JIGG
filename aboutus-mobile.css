@@ -1,0 +1,198 @@
+/* "Journal of Innovations in Genetics and Genome Biology" */
+@media (max-width: 576px){
+    .journal-name{
+        display: none;
+    }
+}
+
+/* Very small devices */
+@media (min-width: 300px){
+    /*Modification in size of both section photos */
+    .section-photos,.section-photos-2{
+        width:100%;
+        height:auto;
+    }
+    
+    /* Shift in padding of Bootstrap column(s) to improve overall display */
+    .col-sm-9{
+        padding-left:1px;
+        padding-right:30px;
+    }
+}
+
+/* Even smaller mobile devices */
+@media (min-width: 400px){
+
+    /*Modification in size of photos in both sections */
+    .section-photos,.section-photos-2{
+        width:95%;
+        height:auto;
+        padding-left:20px;
+    }
+    
+    /* Shift in padding of Bootstrap column(s) to improve overall display */
+    .col-sm-8{
+        padding-left:20px;
+    }
+    .col-sm-3{
+        padding-top:3px;
+        padding-left: 10px;
+    }
+    
+    .col-sm-9{
+        padding-left:1px;
+        padding-right:30px;
+    }
+}
+
+/* Styling for small mobile devices*/
+@media (min-width: 576px){
+    
+    /*Modification in size of photos for both sections */
+    .section-photos{
+        width:220%;
+        height:auto;
+        padding-left:1px;
+        padding-right:1px;
+    }
+    
+    .section-photos-2{
+        width:550%;
+        height:auto;
+    }
+    
+     /* Shift in padding of Bootstrap card to improve overall display */
+    .col-sm-8{
+        padding-left:5px;
+        padding-bottom:0px;
+    }
+    
+    .col-sm-3{
+        padding-top:250px;
+    }
+    
+    .col-sm-9{
+        padding-left:50px;
+        padding-right:1px;
+    }
+    
+    .col-sm-2{
+        padding-top:70px;
+        padding-left:1px;
+        padding-right:30px;
+    }
+}
+
+/* Styling for medium-sized devices */
+@media (min-width:768px){
+    
+    /*Modification in size of photos for both sections */
+    .section-photos{
+        width:160%;
+        height:auto;
+        padding-top:50px;
+        padding-left:10px;
+    }
+    
+    .section-photos-2{
+        width:250%;
+        height:auto;
+        padding-left:1px;
+    }
+    
+     /* Shift in padding of Bootstrap card to improve overall display */
+    .col-sm-8{
+        padding-left:5px;
+        padding-bottom:0px;
+    }
+    
+    .col-sm-3{
+        padding-top:125px;
+    }
+    
+    .col-sm-2{
+        padding-top:40px;
+    }
+
+    .col-sm-9{
+        padding-left:30px;
+    }
+}
+
+/* Styling for laptops and large-sized devices*/
+@media (min-width:992px) and (max-width:1199px){
+    
+    /*Modification in size of photos for both sections */
+    .section-photos{
+        padding-top: 55px;
+        padding-left: 30px;
+        width: 130%;
+    }
+    
+    .section-photos-2{
+        padding-top: 25px;
+        width:150%;
+    }
+    
+    /* Shift in padding of Bootstrap card to improve overall display */
+    .col-sm-8{
+        padding-left: 20px;
+        width:70%;
+    }
+
+    .col-sm-3{
+        padding-left: 2px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .col-sm-2{
+        padding-top: 17px;
+    }
+    
+    .col-sm-9{
+        padding-top: 15px;
+        padding-left:35px;
+        padding-right:5px;
+    }
+    
+}
+
+/* Styling for even larger devices (including monitor desktop) */
+@media (min-width:1200px){
+    
+    /*Modification in size of photos for both sections */
+    .section-photos{
+        padding-top: 15px;
+        padding-left: 30px;
+        width: 130%;
+    }
+
+    .section-photos-2{
+        padding-top: 15px;
+        padding-left:30px;
+        width:140%;
+    }
+
+    /* Shift in padding of Bootstrap card to improve overall display */
+    .col-sm-8{
+        padding-left: 20px;
+        width:70%;
+    }
+
+    .col-sm-3{
+        padding-left: 2px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .col-sm-2{
+        padding-top: 5px;
+    }
+
+    .col-sm-9{
+        padding-top: 15px;
+        padding-left:35px;
+        padding-right:5px;
+    }
+}
