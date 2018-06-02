@@ -23,6 +23,11 @@
     font-family: "Courier New", Courier, monospace;
 }
 
+.link{
+    color: royalblue;
+    font-weight: bold;
+}
+
 .innovation-photo{
     width: 325px;
     padding-left: 25px;
