@@ -30,11 +30,20 @@
     text-align: left;
 }
 
+#subcard-button{
+    width: 100%;
+    text-align: left;
+}
+
 .step-text{
     font-family: "Courier New", Courier, monospace;
     
     /* For mobile compatibility */
     white-space: normal;
+}
+
+.red-emphasis{
+    color: red;
 }
 
 /* CARD #1 */
@@ -43,7 +52,6 @@
 }
 
 #eligibility-card-body{
-    color: white;
     background-color: darkseagreen;
 }
 
@@ -54,7 +62,6 @@
 }
 
 #question-card-body{
-    color: white;
     background-color: lightcoral;
 }
 

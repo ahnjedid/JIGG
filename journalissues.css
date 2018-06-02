@@ -1,105 +1,42 @@
-.page-title{
+#container-content{
     color: white;
-    text-align: center;
     font-family: "Courier New", Courier, monospace;
+}
+
+.page-title{
+    text-align: center;
     font-weight: bold;
 }
 
-.captions{
-    color: white;
+.caption{
     text-align: center;
-    font-family: "Courier New", Courier, monospace;
-}
-
-
-.bg{
-    background: url(background.jpg);
-    background-repeat: no-repeat;
-    background-color: #242222;
-    height: 100%;
-}
-
-/* NAVIGATION BAR */
-/* "JIGG" */
-.navbar-brand{
-    color: white;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 42px;
-}
-
-/* "Journal of Innovations in Genetics and Genome Biology" */
-.journal-name{
-    font-size: 18px;
-}
-
-/* Navigation links */
-.nav-link{
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-    margin-right: 15px;
-}
-
-/* Active navigation link */
-.active a{
-    color: #33FFC7 !important;
-}
-
-/* Navigation link dropdown */
-.dropdown-menu{
-    background: transparent;
-}
-
-/* Navigation link dropdown link */
-.dropdown-item{
-    color: silver;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-}
-/* END OF NAVIGATION BAR */
-
-
-.row-space{
-    background-color: #272525;
 }
 
 /* Card */
-.card-background{
-    width: 20rem;
-    background-color: #272525;
-    border-color: white;
-    display: block;
-    overflow: auto;
-    font-family: "Courier New", Courier, monospace;
-}
-
 .card-body{
     padding-bottom: 30px;
 }
 
 .card-title{
     color: skyblue;
+    text-align: center;
     font-weight: bold;
 }
 
 .card-text{
-    color: white;
+    text-align: center;
 }
 
 .card-transparent{
-    margin-right:40px;
-    margin-bottom:30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
 }
 
 /* END OF STYLING FOR CARDS */
 
 /* Photos for "Journal Issues" */
-.issues_cover{
-    width: 100%;
-    height: auto;
-}
-
-/*Styling for the columns*/
-.col-md{
-    padding-left: 20px;
-    padding-right: 20px;
+.issues-cover{
+    width: 225px;
+    display: block;
+    margin: 0 auto;
 }
